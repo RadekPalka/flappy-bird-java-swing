@@ -1,4 +1,4 @@
-package config;
+package radek.flappy.config;
 
 public class GameConfig {
     public static final int BOARD_WIDTH = 360;

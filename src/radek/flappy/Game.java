@@ -1,11 +1,14 @@
-import ui.GamePanel;
+package radek.flappy;
+
+import radek.flappy.ui.GamePanel;
 
 import javax.swing.*;
+import java.io.IOException;
 
 public class Game {
     private JFrame frame;
 
-    public void start(){
+    public void start() throws IOException {
         frame = new JFrame("Flappy bird");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
